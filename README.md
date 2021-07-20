@@ -6,7 +6,7 @@
 
 ### Digitální hodiny
 
-1. Vytvoř animaci, ktrá bude s prvkem `.digitalni__dvojtecka` blikat.
+1. Vytvoř animaci, která bude s prvkem `.digitalni__dvojtecka` blikat.
 
    1. Využij vlastnost `opacity`, která má výchozí hodnotu `1`. Pro zneviditelnění prvku nastav `0`.
 
