@@ -1,17 +1,45 @@
 /* Do tohoto souboru piš vlastní styly */
+@keyframes blikani {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
 
 .digitalni__dvojtecka {
 	/* Zadefinuj a zde pak použij animaci blikání */
+	animation: blikani 1s infinite;
 }
 
 
 /* Statický ukázkový čas 4:35:57 */
+
+
+@keyframes toceni {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
 .analogove__hodinova {
-	transform: rotate(137.5deg);
+	animation: toceni 43200s infinite linear;
 }
+
 .analogove__minutova {
-	transform: rotate(215.7deg);
+	animation: toceni 3600s infinite linear;
 }
+
 .analogove__vterinova {
-	transform: rotate(342deg);
+	animation: toceni 60s infinite linear;
 }
